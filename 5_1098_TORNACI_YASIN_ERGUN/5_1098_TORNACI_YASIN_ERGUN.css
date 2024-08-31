@@ -1,0 +1,58 @@
+body
+{
+    position: relative;
+    background-color: rgb(43, 42, 42);
+}
+#canvas {
+position: relative;
+margin:0 auto;
+margin-left: 35em;
+border:2px solid black;
+}
+#levels
+{
+    display: block;
+    font-size: 20px;
+}
+#btn1
+{
+    margin-left: 30em;
+    font-size: 20px;
+    
+}
+#btn2
+{
+    font-size: 20px;
+}
+#btn3
+{
+    font-size: 20px;
+}
+#start
+{
+    margin-left: 150px;
+    font-size: 20px;
+}
+#popup1 {
+    display: none;
+    position: fixed;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #e49d9d;
+    padding: 300px;
+    z-index: 9999;
+  }
+
+  #popup2 {
+    display: none;
+    position: fixed;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #e49d9d;
+    padding: 300px;
+    z-index: 9999;
+  }
+
+
